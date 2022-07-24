@@ -32,4 +32,4 @@ Scania = Truck(4, 30, "W", 1)
 
 for vehicle in (Audi, Scania):
     vehicle.print_state()
-
+    
