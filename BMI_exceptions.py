@@ -1,4 +1,4 @@
-# Demonstration of exception handling by Body Mass Index (BMI) calculation 
+# Demonstration of exception handling by Body Mass Index (BMI) calculation
 
 print("""Body Mass Index (BMI) Calculation
 Note: Please use metric system.""")
