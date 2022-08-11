@@ -5,12 +5,11 @@ you have now created to use protected and unprotected variables. """
 from datetime import date
 
 class Employee():
-    _company = "Acme"
 
     def __init__(self, name, surname, dept):
-        self.name = name
-        self.surname = surname
-        self.dept = dept
+        self._name = name
+        self._surname = surname
+        self._dept = dept
 
     def leave(self):
         self.year = input("Enter the year of leave:")
@@ -19,9 +18,6 @@ class Employee():
         return print(f"You asked for a leave on {self.day}/{self.month}/{self.year}")
 
 Tom = Employee("Tom", "Blackwood", "Accounting")
-#Tom.name = "Tom"
-#Tom.surname = "Blackwood"
-#Tom.dept = "Accounting"
 
-print(f"{Tom.name} {Tom.surname} from {Tom.dept}")
+print(f"{Tom._name} {Tom._surname} from {Tom._dept}")
 Tom.leave()

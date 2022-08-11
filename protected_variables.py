@@ -18,7 +18,7 @@ print(person1.name)
 print(person1._surname)
 
 # However, when we make it private with "__", it is not possible to access the attribute directly. Hence, this will
-# raise an error:
+# raise an error: 
 # print(person1.__salary)
 # But it can still be reached (that's another story). Try this:
 # print(person1._Person__salary)

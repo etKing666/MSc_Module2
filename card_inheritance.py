@@ -1,7 +1,7 @@
 from random import shuffle
 
 class Card:
-    """Represents a standard playing card."""
+    """Represents a standard playing card.""" 
 
 
     # Class variables:

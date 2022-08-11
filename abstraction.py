@@ -35,7 +35,7 @@ class Bank(Banking):
         print(f"Your new balance is: {self.balance}")
         return
 
-# User menu
+# User menu 
 def menu():
     choice = int(input(""" 
     Please select the action you would like to perform:

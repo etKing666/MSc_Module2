@@ -16,7 +16,7 @@ class Vehicles:
 inventory = Vehicles()
 inventory.data.update({"Cars": {"Audi": 20, "Mercedes": 32, "BMW": 13}, 'Trucks': {"Mercedes": 5, "Scania": 8}})
 
-# We are calling the getter functions instead of directly accessing the attributes of the object
+# We are calling the getter functions instead of directly accessing the attributes of the object 
 items = inventory.get_items()
 print(f"Here is the current status of the inventory: {items}.")
 
