@@ -46,6 +46,8 @@ while True:  # Infinite loop until the user provides an input
 
         # Checks if the user wants to make another calculation
         next_calculation = input("Let's do next calculation? (yes/no): ")
+
+        # If user inputs no, the program exits.
         if next_calculation == "no":
             break
         else:
