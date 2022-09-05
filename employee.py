@@ -9,7 +9,7 @@ class Employee():
     def __init__(self, name, surname, dept):
         self._name = name
         self._surname = surname
-        self._dept = dept
+        self.dept = dept
 
     def leave(self):
         self.year = input("Enter the year of leave:")
@@ -19,5 +19,5 @@ class Employee():
 
 Tom = Employee("Tom", "Blackwood", "Accounting")
 
-print(f"{Tom._name} {Tom._surname} from {Tom._dept}")
+print(f"{Tom._name} {Tom._surname} from {Tom.dept}")
 Tom.leave()
